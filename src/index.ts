@@ -1,7 +1,7 @@
 export default {
 	async fetch(request, env) {
 		const inputs = {
-			prompt: "isometric view of a futuristic city at sunset, with flying cars and neon lights, in the style of cyberpunk art",
+			prompt: "just a test",
 		};
 
 		const response = await env.AI.run(
