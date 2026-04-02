@@ -1,7 +1,7 @@
 export default {
 	async fetch(request, env) {
 		const inputs = {
-			prompt: "hyper realistic portrait of a cat wearing a suit and tie, 4k, studio lighting",
+			prompt: "isometric view of a futuristic city at sunset, with flying cars and neon lights, in the style of cyberpunk art",
 		};
 
 		const response = await env.AI.run(
