@@ -1,7 +1,7 @@
 export default {
 	async fetch(request, env) {
 		const inputs = {
-			prompt: "photograph of a cat",
+			prompt: "quiet forest with a small river and a wooden bridge, in the style of Studio Ghibli",
 		};
 
 		const response = await env.AI.run(
