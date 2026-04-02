@@ -1,7 +1,7 @@
 export default {
 	async fetch(request, env) {
 		const inputs = {
-			prompt: "woman with red hair and blue eyes, wearing a white shirt, smiling, looking at the camera, photorealistic, 4k",
+			prompt: "hyper realistic portrait of a cat wearing a suit and tie, 4k, studio lighting",
 		};
 
 		const response = await env.AI.run(
