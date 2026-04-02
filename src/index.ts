@@ -1,7 +1,7 @@
 export default {
 	async fetch(request, env) {
 		const inputs = {
-			prompt: "duck riding a horse in the style of van gogh",
+			prompt: "epic landscape with mountains and a river",
 		};
 
 		const response = await env.AI.run(
