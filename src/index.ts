@@ -1,7 +1,7 @@
 export default {
 	async fetch(request, env) {
 		const inputs = {
-			prompt: "two dogs playing poker",
+			prompt: "ultra realistic portrait of a cat, 4k, high quality, detailed, sharp focus",
 		};
 
 		const response = await env.AI.run(
